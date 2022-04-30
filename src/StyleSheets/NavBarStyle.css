@@ -1,0 +1,119 @@
+.Navigation {
+  height: 100vh;
+}
+
+.Navigation > video {
+  height: 100vh;
+  width: 100vw;
+  padding: none;
+  position: absolute;
+  z-index: -1;
+  min-width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  padding: 30px 25px;
+  height: 90px;
+  word-spacing: 20px;
+}
+
+.nav > h2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.nav > p {
+  margin-left: 20px;
+  color: white;
+  font-size: 22px;
+}
+
+.button {
+  margin-left: auto;
+}
+
+.heroText {
+  width: 100%;
+  height: 100%;
+  margin-top: 200px;
+  padding-left: 40px;
+  line-height: 60px;
+}
+
+.heroText > h1 {
+  font-size: 50px;
+}
+
+.heroText > p {
+  font-size: 200px;
+}
+
+.button {
+  color: rgb(0, 250, 179);
+  padding: 16px 24px;
+  border-radius: 15px;
+  font-size: min(3.5vw, 13px);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background: rgba(100, 250, 179, 0.2);
+  overflow: hidden;
+  z-index: 111;
+  transition: color 0.25s ease 0.1s, transform 0.2s ease 0s;
+  pointer-events: auto;
+}
+
+.button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+
+.button2:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+
+.button2 {
+  padding: 16px 24px;
+  border-radius: 15px;
+  font-size: min(3.5vw, 13px);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background: rgb(0, 250, 179);
+  overflow: hidden;
+  z-index: 111;
+  transition: color 0.25s ease 0.1s, transform 0.2s ease 0s;
+  margin-left: 20px;
+  pointer-events: auto;
+}
+
+.buttonNav {
+  color: rgb(0, 250, 179);
+  padding: 16px 24px;
+  border-radius: 15px;
+  font-size: min(3.5vw, 13px);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background: rgba(100, 250, 179, 0.2);
+  overflow: hidden;
+  z-index: 111;
+  transition: color 0.25s ease 0.1s, transform 0.2s ease 0s;
+  width: 300px;
+  pointer-events: auto;
+}
+
+.buttonNav:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}

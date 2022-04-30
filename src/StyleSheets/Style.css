@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+@import url(HeroStyle.css);
+@import url(FooterStyle.css);
+@import url(NavBarStyle.css);
+@import url(ScrollingStyle.css);
+@import url(TeamStyle.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.Navigation {
+  margin-bottom: 250px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 30px 25px;
+  height: 90px;
+  word-spacing: 20px;
+}
+
+.nav > h2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.nav > p {
+  margin-left: 20px;
+  color: white;
+  font-size: 22px;
+}
+
+.button {
+  margin-left: auto;
+}
+
+.backgroundvideo {
+  height: 100%tvh;
+  width: 100%;
+  float: left;
+  top: 0;
+  padding: none;
+  position: absolute;
+  z-index: -1; 
+ }
+
+.herotext {
+  margin-top: 200px;
+  margin-left: 40px;
+  line-height: 60px;
+}
+
+.herotext > h1 {
+  font-size: 50px;
+}
+
+.herotext > p {
+  font-size: 200px;
+}
+
+.button {
+  color: rgb(0, 250, 179);
+  padding: 16px 24px;
+  border-radius: 15px;
+  font-size: min(3.5vw, 13px);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background: rgba(100, 250, 179, 0.2);
+  overflow: hidden;
+  z-index: 111;
+  transition: color 0.25s ease 0.1s, transform 0.2s ease 0s;
+   width: 100%
+  
+   pointer-events: auto;
+}
+
+.button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+
+.button2:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+
+.button2 {
+  padding: 16px 24px;
+  border-radius: 15px;
+  font-size: min(3.5vw, 13px);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background: rgb(0, 250, 179);
+  overflow: hidden;
+  z-index: 111;
+  transition: color 0.25s ease 0.1s, transform 0.2s ease 0s;
+  margin-left: 20px;
+  pointer-events: auto;
+}
+
+.buttonNav {
+  color: rgb(0, 250, 179);
+  padding: 16px 24px;
+  border-radius: 15px;
+  font-size: min(3.5vw, 13px);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background: rgba(100, 250, 179, 0.2);
+  overflow: hidden;
+  z-index: 111;
+  transition: color 0.25s ease 0.1s, transform 0.2s ease 0s;
+  width: 300px;
+  pointer-events: auto;
+}
+
+.buttonNav:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+
+ ABOVE IS THE FIRST BLOCK OF THE WEBSITE 
+ BELOW IS THE STYLING FOR THE BOX WITH WORDS AND A PICTUR
+
+ .boxOne {
+  background-color: rgb(28, 30, 59);
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+ .insideBox {
+  display: flex;
+  margin: 100px;
+  padding: 40px;
+  border-radius: 27px;
+  background: linear-gradient(
+    rgba(0, 250, 179, 0.2) 0%,
+    rgba(0, 205, 250, 0.1) 100%
+  );
+
+
+ .insideBoxTwo {
+  background: linear-gradient(
+    270deg,
+    rgb(52, 51, 182) 41.48%,
+    rgb(66, 79, 165) 100%
+  );
+  display: flex;
+  margin: 100px;
+  padding: 40px;
+  border-radius: 27px;
+
+   
+
+.mainTwo {
+  margin-top: 50px;
+}
+.cardWords {
+  justify-content: left;
+}
+
+.cardVid {
+  border-radius: 5%;
+
+
+ BELOW IS THE STYLING OF THE TEAM COMPONEN
+ .cont {
+  background-color: rgb(28, 30, 59);
+}
+
+.cardsbox {
+  display: inline-flex;
+  margin: 50px;
+
+  .fullTeam {
+  width: 50vw;
+  height: 43vh;
+  border-radius: 27px;
+  border: solid green;
+  justify-content: center;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.fullTeam > h1 {
+  margin-top: 15vh;
+  font-family: "Bebas Neue", cursive;
+}
+
+.fullTeam > p {
+  color: rgb(0, 250, 179);
+}
+
+.about {
+  padding-top: 30px;
+  padding-left: 20px;
+  color: rgb(0, 250, 179);
+  font-size: 18px;
+}
+
+.cardWords > h1 {
+  padding: 20px;
+  font-size: 3rem;
+  letter-spacing: -1px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.heroMain {
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+.cardWords > button {
+  margin: 20px;
+}
+
+.founder {
+  padding-left: 60px;
+  color: rgb(0, 250, 179);
+  font-size: 18px;
+}
+
+.card {
+  margin-right: 20px;
+}
+
+.card > p {
+  color: rgb(0, 250, 179);
+}
+
+.cardTwo {
+  margin-right: 20px;
+}
+
+.cardTwo > p {
+  color: rgb(0, 250, 179);
+
+BELOW IS THE SCROLLING WORD
+
+.holder {
+  background: rgb(28, 30, 59);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.sWord {
+  color: rgb(0, 250, 179);
+  flex: 0 0 auto;
+  min-width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  transform: translateX(100%);
+  animation: my-animation 60s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+.sWordTwo {
+  color: rgb(0, 250, 179);
+  flex: 0 0 auto;
+  min-width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  transform: translateX(100%);
+  animation: my-animation 60s linear infinite;
+  animation-fill-mode: forwards;
+  letter-spacing: 3px;
+}
+.scrollingWord {
+ animation propertie
+   display: inline-flex
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  float: left }
+
+@keyframes my-animation {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+
+  / 
+
+ BELOW IF STYLING FOR THE FOOTE
+ .footer {
+  background: rgb(28, 30, 59);
+  padding-bottom: 1rem;
+}
+
+.footer > h1 {
+  font-size: 250px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.footer > button {
+  margin-left: 1rem;
+; */

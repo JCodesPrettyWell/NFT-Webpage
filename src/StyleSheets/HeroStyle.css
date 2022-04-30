@@ -1,0 +1,39 @@
+.boxOne {
+  background-color: rgb(28, 30, 59);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.insideBox {
+  display: flex;
+  margin: 100px;
+  padding: 40px;
+  border-radius: 27px;
+  background: linear-gradient(
+    rgba(0, 250, 179, 0.2) 0%,
+    rgba(0, 205, 250, 0.1) 100%
+  );
+}
+
+.insideBoxTwo {
+  background: linear-gradient(
+    270deg,
+    rgb(52, 51, 182) 41.48%,
+    rgb(66, 79, 165) 100%
+  );
+  display: flex;
+  margin: 100px;
+  padding: 40px;
+  border-radius: 27px;
+}
+
+.mainTwo {
+  margin-top: 50px;
+}
+.cardWords {
+  justify-content: left;
+}
+
+.cardVid {
+  border-radius: 5%;
+}

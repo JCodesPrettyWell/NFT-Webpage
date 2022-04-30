@@ -1,0 +1,14 @@
+.footer {
+  background: rgb(28, 30, 59);
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+.footer > h1 {
+  font-size: 250px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.footer > button {
+  margin-left: 1rem;
+}

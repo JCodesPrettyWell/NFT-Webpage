@@ -1,0 +1,37 @@
+.holder {
+  background: rgb(28, 30, 59);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  overflow: hidden;
+}
+
+.sWord {
+  color: rgb(0, 250, 179);
+  flex: 0 0 auto;
+  min-width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  transform: translateX(100%);
+  animation: my-animation 60s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+.scrollingWord {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  float: left;
+}
+
+@keyframes my-animation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

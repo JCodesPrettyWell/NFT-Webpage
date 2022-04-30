@@ -1,0 +1,71 @@
+.cont {
+  background-color: rgb(28, 30, 59);
+}
+
+.cardsbox {
+  display: inline-flex;
+  margin: 40px;
+}
+
+.fullTeam {
+  width: 50vw;
+  height: 43vh;
+  border-radius: 27px;
+  border: solid green;
+  justify-content: center;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.fullTeam > h1 {
+  margin-top: 15vh;
+  font-family: "Bebas Neue", cursive;
+}
+
+.fullTeam > p {
+  color: rgb(0, 250, 179);
+}
+
+.about {
+  padding-top: 30px;
+  padding-left: 20px;
+  color: rgb(0, 250, 179);
+  font-size: 18px;
+}
+
+.cardWords > h1 {
+  padding: 20px;
+  font-size: 3rem;
+  letter-spacing: -1px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.heroMain {
+  letter-spacing: 2px;
+}
+
+.cardWords > button {
+  margin: 20px;
+}
+
+.founder {
+  padding-left: 60px;
+  color: rgb(0, 250, 179);
+  font-size: 18px;
+}
+
+.card {
+  margin-right: 20px;
+}
+
+.card > p {
+  color: rgb(0, 250, 179);
+}
+
+.cardTwo {
+  margin-right: 20px;
+}
+
+.cardTwo > p {
+  color: rgb(0, 250, 179);
+}
